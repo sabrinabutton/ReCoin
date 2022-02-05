@@ -16,15 +16,15 @@ from joblib import load
 
 #LOAD
 # load the saved pipleine model
-pipeline = load("text_classification.joblib")
+pipeline = load("recycling_classification.joblib")
 
 
-def requestResults(image):
-    # get the prediction
-    tweets['prediction'] = pipeline.predict(image)
-    # get the value counts of different labels predicted
-    data = str(image.prediction.value_counts()) + '\n\n'
-    return data + str(image)
+# def requestResults(image):
+#     # get the prediction
+#     tweets['prediction'] = pipeline.predict(image)
+#     # get the value counts of different labels predicted
+#     data = str(image.prediction.value_counts()) + '\n\n'
+#     return data + str(image)
 
 
 @app.route("/image", methods=['GET', 'POST'])
@@ -33,7 +33,10 @@ def image():
         bytesOfImage = request.get_data()
         with open('image.jpeg', 'wb') as out:
             out.write(bytesOfImage)
-        return "Image read"
+            preditction = pipeline.predict(out)
+            data = str(image.prediction.value_counts()) + '\n\n'
+        return data + str(image)
+    
 
 
 @app.route("/video", methods=['GET', 'POST'])
