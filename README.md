@@ -1,5 +1,5 @@
 # Recoin 
-<img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="200" height="200"> 
+<img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="210" height="200"> 
 "Restoring our Environment and Buisnesses in Parallel"
 
 #### Presented By: 
