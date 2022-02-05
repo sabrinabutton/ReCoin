@@ -27,12 +27,14 @@ const toServer = async (mediaFile) => {
     uploadType: FS.FileSystemUploadType.BINARY_CONTENT,
   });
 
+  
   console.log(response.headers);
   console.log(response.body);
+  return response.body;
 };
 
 export default function App() {
-  const [cameraRollPer, setCPR] = useState(null);
+  const [identity, setIdentity] = useState(null);
   const [disableButton, setDB] = useState(false);
 
   useEffect(async () => {
@@ -42,46 +44,46 @@ export default function App() {
   });
 
   
-const uriToBase64 = async (uri) => {
-  let base64 = await FS.readAsStringAsync(uri, {
-    encoding: FS.EncodingType.Base64,
-  });
-  return base64;  
-};
+// const uriToBase64 = async (uri) => {
+//   let base64 = await FS.readAsStringAsync(uri, {
+//     encoding: FS.EncodingType.Base64,
+//   });
+//   return base64;  
+// };
 
   
-const pickMedia = async () => {
+// const pickMedia = async () => {
  
-    const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
-    setCPR(cameraRollPer);
-    setDB(true);
+//     const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
+//     setCPR(cameraRollPer);
+//     setDB(true);
 
-  let result = await ImagePicker.launchImageLibraryAsync({
-    mediaTypes: ImagePicker.MediaTypeOptions.All,
-    base64: true,
-  });
-  if (result.cancelled) {
-    return;
-  }
-  if (result.type == "image") {
-    await toServer({
-      type: result.type,
-      base64: result.base64,
-      uri: result.uri,
-    });
-  } else {
-    let base64 = await uriToBase64(result.uri);
-    await toServer({
-      type: result.type,
-      base64: base64,
-      uri: result.uri,
-    });
-  }
-};
+//   let result = await ImagePicker.launchImageLibraryAsync({
+//     mediaTypes: ImagePicker.MediaTypeOptions.All,
+//     base64: true,
+//   });
+//   if (result.cancelled) {
+//     return;
+//   }
+//   if (result.type == "image") {
+//     await toServer({
+//       type: result.type,
+//       base64: result.base64,
+//       uri: result.uri,
+//     });
+//   } else {
+//     let base64 = await uriToBase64(result.uri);
+//     await toServer({
+//       type: result.type,
+//       base64: base64,
+//       uri: result.uri,
+//     });
+//   }
+// };
 
   return (
     <SafeAreaView style={styles.container}>
-      {cameraRollPer ? (
+      {/* {cameraRollPer ? (
         <Button
           title="Pick From Gallery"
           disabled={disableButton}
@@ -95,12 +97,12 @@ const pickMedia = async () => {
         />
       ) : (
         <Text>Camera Roll Permission Required ! </Text>
-      )}
+      )} */}
       <Button
           title="Test"
           disabled={disableButton}
           onPress={async () => {
-            await toServer(test_image);
+            setIdentity(await toServer(test_image));
           
               setCPR(cameraRollPer);
               setDB(false);
