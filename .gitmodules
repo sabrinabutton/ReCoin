@@ -1,0 +1,3 @@
+[submodule "frontend/trashcoin"]
+	path = frontend/trashcoin
+	url = https://github.com/sabrinabutton/uoft-hacks.git
