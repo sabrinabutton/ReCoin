@@ -8,6 +8,24 @@ import sys
 app = Flask(__name__)
 cors = CORS(app)
 
+# import joblib
+from joblib import load
+
+# TAKE IMAGE
+# sample tweet text
+
+#LOAD
+# load the saved pipleine model
+pipeline = load("text_classification.joblib")
+
+
+def requestResults(image):
+    # get the prediction
+    tweets['prediction'] = pipeline.predict(image)
+    # get the value counts of different labels predicted
+    data = str(image.prediction.value_counts()) + '\n\n'
+    return data + str(image)
+
 
 @app.route("/image", methods=['GET', 'POST'])
 def image():
