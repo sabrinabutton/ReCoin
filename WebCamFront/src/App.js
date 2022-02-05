@@ -12,6 +12,7 @@ function App() {
           <DropdownMenu></DropdownMenu>
         </NavItem>
       </Navbar>
+      <h1>WasteCoin</h1>
       <WebcamCapture/>
     </div>
   );

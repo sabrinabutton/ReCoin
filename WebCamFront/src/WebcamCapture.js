@@ -4,7 +4,7 @@ import Webcam from "react-webcam";
 import { useDispatch } from 'react-redux';
 import { setCameraImage } from './features/cameraSlice';
 const videoConstraints = {
-    width: 250,
+    width: 400,
     height: 400,
     facingMode: "user",
 };
