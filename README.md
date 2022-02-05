@@ -1,11 +1,11 @@
 # Recoin 
-<img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="100" height="100"> 
+<img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="200" height="200"> 
 "Restoring the Environment and Our Buisness in Parallel"
 
 #### Presented By: 
 Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales 
 ## Theme Covered:
-Post pandemic restoration for both the environment and small buisnesses. The app uses a extensivly trained AI system to detect trash and sort it to the proper bin from your smartphone. While using the app, users will be incentivized by points, which will be redeemable in partnering stores.
+Post pandemic restoration for both the environment and small buisnesses, and personal finance. The app uses a extensivly trained AI system to detect trash and sort it to the proper bin from your smartphone. While using the app, users will be incentivized by points, which will be redeemable in partnering stores.
 
 ## Problem Statment: 
 Intuitive app that uses a smartphone camera to detect trash and sort it to the proper bin. Users will be incentivized by points which will be redeemable in partnering stores, to use the app and recover the environment. 
@@ -14,9 +14,25 @@ As our actions continue to damage the environment, it is important that we inves
 
 Our passion to make our community globally and locally more sustainable has fueled us to use artificial intelligence to develop an app that not only makes sorting garbage as easy as using snapchat, but also rewards individuals for sorting their garbage properly.  
 
-For this reason, we would like to introduce Trashcoin. This intuitive app allows anyone to scan any product and easily uncover the bin that the trash belongs based off their location.  Furthermore, if they attempt to sell their product, or use our app they will earn points which will subsequently be redeemable in partnering stores that advocate for the environment. The more the user uses the app, the more points they receive, subsequently resulting in better items to redeem in stores. With this app we will not only help recover the environment post pandemic but also increase sales in small businesses at the same time.    
+For this reason, we would like to introduce Trashcoin. This intuitive app allows anyone to scan any product and easily uncover the bin that the trash belongs based off their location.  Furthermore, if they attempt to sell their product, or use our app they will earn points which will subsequently be redeemable in partnering stores that advocate for the environment. The more the user uses the app, the more points they receive, subsequently resulting in better items to redeem in stores. With this app we will not only help recover the environment post pandemic but also increase sales in mainly small businesses and personal finance at the same time.    
 
 ## About the App:
+### Incentive Breakdown: 
+<img src = "https://drive.google.com/uc?export=view&id=1CU2JkOJqplaTxNo7B8s_UXN_UaEydsd3" width="600" height="400"> 
+
+Please note that these expenses are estimated expectations for potential benefit packages but are not defined yet. 
+
+
+We are proposing a $1 discount for participating small businesses when an amount certain coffee/drink cups are returned to participating restaurants.  This will be easy for small companies to uphold to financially, while providing a motivation for individuals to use our scanner.
+
+Amazon costs around $0.5 to $2 on packaging, so we are proposing that Amazon provides a $15 gift card per 100 packages returned to amazon. As the 100 packages can cost from $50 to $200, this incentive will save amazon resources by 5 to 100 times the amount while providing positive public perception for reusing. 
+
+As recycling plastic for 3D filament is an up-and-coming technology that can revolutionize environment sustainability, we would like to create a system where providing materials for such causes can give the individuals benefits.
+
+Lastly, as metals become more valuable, we would also like to offer a price for providing metals back to companies to reuse. 
+
+The next steps to this endeavor will be to provide benefits for individuals that provide batteries and electronics with some sort of incentive as well.  
+
 
 ## Technological Specifics and Next Steps:  
 ### Backend
