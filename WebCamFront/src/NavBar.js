@@ -1,11 +1,13 @@
 import React, { useState }  from 'react';
-import { FaInfo } from 'react-icons/fa'
+import logo from './icon/ReCoin.png';
+import { FaInfo, FaGithub } from 'react-icons/fa'
 import {CSSTransition} from 'react-transition-group';
 function Navbar(props) {
     return (
       <nav className = "navbar">
           <ul className='navbar-nav'>{ props.children }</ul>
           
+
       </nav>
   
     );
@@ -16,14 +18,17 @@ function Navbar(props) {
     const [open, setOpen] = useState(false);
   
     return (
+      <>
       <li className='nav-item'>
         <a href="#" className='icon-button' onClick={()=>setOpen(!open)}>
           { props.icon }
         </a>
-  
         {open && props.children}
   
       </li>
+      <li className='nav-item'><img className='logo' src={logo} alt="logo" width ="150px"/>
+      </li>
+      </>
       
     );
   }
@@ -71,7 +76,7 @@ function Navbar(props) {
           onEnter={calcHeight}
           >
             <div className = "menu">
-              <LoginButton> My Profile </LoginButton>
+              <LoginButton leftIcon={<FaGithub/>} href= "https://github.com/sabrinabutton/ReCoin"> GitHub </LoginButton>
               <DropdownItem
                 className='icon-button' 
                 leftIcon = {<FaInfo/>}
