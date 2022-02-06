@@ -42,11 +42,10 @@ The next steps to this endeavor will be to provide benefits for individuals that
 
 
 ## User Interface: 
-#add user stuff!!!!!!!!!!!1
+<img src = "https://drive.google.com/uc?export=view&id=1QR2fNvrkpB7q_PAI_5iZfL3M7i9nV6m5" width="1000" height="500"> 
 
 ## Technological Specifics and Next Steps:  
 ### Frontend
-----ADDDDDDDDDDDD GRAPHHHHHHHHHHHHHHHHHHHHHHHH____
 We used to React.JS to develop components for the webcam footage and capture screen shots. It was also utilized to create the rest of the overall UI design. 
 
 ### Backend
@@ -57,7 +56,7 @@ On Pytorch, we utilized an open-source trash detection AI software and data, to 
 Currently, the system is predicted to have a 94% accuracy, but in the future, we plan on using reinforcement learning in our beta testing to continuously improve our algorithm. Reinforcement learning allows for the data to be more accurate, through learning from user correction. This will allow AI to become more precise as it gains more popularity.  
 
 #### Other Systems: 
-By using Matbox API and the Google Suite/API, we will be creating maps to find recycling locations and an extensively thorough Recoin currency system that can easily be transferred to real time money for consumers and businesses.
+By using Matbox API and the Google Suite/API, we will be creating maps to find recycling locations and an extensively thorough Recoin currency system that can easily be transferred to real time money for consumers and businesses (as shown in the user interface above).
 
 ## Stakeholders:
 After the completion of this project, we intend to continue to pursue the app to improve our communities’ sustainability. After looking at the demographic of interest in our school itself, we know that students will be interested in this app, not only from convenience but also through the reward system. Local cafes and Starbucks already have initiatives to improve public perspective and support the environment (i.e., using paper straws and cups), therefore supporting this new endeavor will be an interest to them. As branding is everything in a business, having a positive public perspective will increase sales. 
