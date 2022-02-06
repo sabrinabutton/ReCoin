@@ -2,7 +2,8 @@
 Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales   
 
 #   <img src = "https://drive.google.com/uc?export=view&id=1wpfdlHiWh5KRe_vNQHxh1KQIfEGxOfFJ" width="150" height="38"> 
-
+ 
+  
  <p align="center">  
 <img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="170" height="160">   
  </p>
