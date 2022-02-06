@@ -72,3 +72,15 @@ As the pandemic has caused a significant decline in small business revenue, we i
 
 •	https://www.channelreply.com/blog/view/ebay-amazon-packaging-costs 
 
+• https://medium.datadriveninvestor.com/deploy-your-pytorch-model-to-production-f69460192217
+
+• https://narainsreehith.medium.com/upload-image-video-to-flask-backend-from-react-native-app-expo-app-1aac5653d344
+
+• https://pytorch.org/tutorials/beginner/saving_loading_models.html
+
+• https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html
+
+• https://pytorch.org/get-started/locally/
+
+• https://www.kdnuggets.com/2019/03/deploy-pytorch-model-production.html
+
