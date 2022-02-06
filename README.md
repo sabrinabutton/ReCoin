@@ -1,9 +1,16 @@
-# ReCoin 
-<img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="210" height="200"> 
-"Restoring our Environment and Buisnesses in Parallel"
 
-#### Presented By: 
-Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales 
+Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales   
+
+#   <img src = "https://drive.google.com/uc?export=view&id=1wpfdlHiWh5KRe_vNQHxh1KQIfEGxOfFJ" width="150" height="38"> 
+
+ <p align="center">  
+<img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="170" height="160">   
+ </p>
+ 
+ <p align="center">   
+"Restoring our Environment and Buisnesses in Parallel"
+ </p>
+
 ## Theme Covered:
 The themes covered in this project include post pandemic restoration for both the environment, small buisnesses, and personal finance! The app pitched uses an extensivly trained AI system to detect trash and sort it to the proper bin from your smartphone. While using the app, users will be incentivized by points, which will be redeemable in partnering stores.
 
@@ -16,8 +23,9 @@ For this reason, we would like to introduce Trashcoin. This intuitive app allows
 
 ## About the App:
 ### Incentive Breakdown: 
+<p align="center">
 <img src = "https://drive.google.com/uc?export=view&id=1CU2JkOJqplaTxNo7B8s_UXN_UaEydsd3" width="600" height="400"> 
-
+</p>
 Please note that these expenses are estimated expectations for potential benefit packages but are not defined yet. 
 
 We are proposing a $1 discount for participating small businesses when an amount certain coffee/drink cups are returned to participating restaurants.  This will be easy for small companies to uphold to financially, while providing a motivation for individuals to use our scanner.
@@ -50,16 +58,22 @@ By using Matbox API and the Google Suite/API, we will be creating the maps to fi
 
 ## Stakeholders:
 After the completion of this project, we intend to continue to pursue the app to improve our communities’ sustainability. After looking at the demographic of interest in our school itself, we know that students will be interested in this app, not only from convenience but also through the reward system. Local cafes and Starbucks already have initiatives to improve public perspective and support the environment (i.e., using paper straws and cups), so supporting this new endeavor will be an interest to them. As branding is everything in a business, having a positive public perspective will increase sales.  
+<p align="center">
 <img src = "https://drive.google.com/uc?export=view&id=189sA5C0KDT8VIaRdD6jQQtnN32qO87h8" width="500" height="500"> 
+  </p>
 
 ### Amazon: 
-As Amazon continues to be the leading online marketplace, more packages will continue to be made, which can be detrimental to the worlds limited resources. We will be training the UI to track packages that are Amazon based. With such training, we would like to be able to implement a system where those packaging can be sent back to amazon to be reused for credit. This will allow for amazon to improve their cooperate image on being environmentally friendly, while saving on resources.  
+
+As Amazon continues to be the leading online marketplace, more packages will continue to be made, which can be detrimental to the worlds limited resources. We will be training the UI to track packages that are Amazon based. With such training, we would like to be able to implement a system where those packaging can be sent back to amazon to be reused for credit. This will allow for amazon to improve their cooperate image on being environmentally friendly, while saving on resources. 
+
 
 ### Small Businesses:
 As the pandemic has caused a significant decline in small business revenue, we intend to mainly partner with small businesses in this project.  The software will also help increase small business sales as by supporting the app, students will be more inclined to go to their store due to positive public image and the additive discounts will attract more customers. In the future, we wish to train AI to also detect trash of value (i.e.. Broken smartphones, precious metals), so that consumers can sell it in a bundle to local companies that can benefit from the material (ex: 3D-printing companies that convert used plastic to filament)  
 
 ## Timeline: REMEMBER TO CHANGE NAME TO RECOIN
-<img src = "https://drive.google.com/uc?export=view&id=15gMlkXlG7PLyIIL6UdR9d4A_QvlS9_Nr" width="500" height="700"> 
+<p align="center">
+<img src = "https://drive.google.com/uc?export=view&id=1jA6at4g31KpTOJdwna-10UwP_U-z4JUp" width="500" height="700"> 
+</p>
 
 ## Code Refrences
 
@@ -71,16 +85,4 @@ As the pandemic has caused a significant decline in small business revenue, we i
 •	https://www.forbes.com/sites/forbesagencycouncil/2016/10/31/why-brand-image-matters-more-than-you-think/?sh=6a4b462e10b8 
 
 •	https://www.channelreply.com/blog/view/ebay-amazon-packaging-costs 
-
-• https://medium.datadriveninvestor.com/deploy-your-pytorch-model-to-production-f69460192217
-
-• https://narainsreehith.medium.com/upload-image-video-to-flask-backend-from-react-native-app-expo-app-1aac5653d344
-
-• https://pytorch.org/tutorials/beginner/saving_loading_models.html
-
-• https://pytorch.org/tutorials/intermediate/flask_rest_api_tutorial.html
-
-• https://pytorch.org/get-started/locally/
-
-• https://www.kdnuggets.com/2019/03/deploy-pytorch-model-production.html
 
