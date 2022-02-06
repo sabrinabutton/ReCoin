@@ -12,7 +12,7 @@ Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales
 "Reduce Reuse Recoin"
  </p>
 
-[![Watch the video](https://img.youtube.com/vi/3cQccg12dgQ/maxresdefault.jpg)](https://youtu.be/3cQccg12dgQ)
+[![Watch our video](https://img.youtube.com/vi/3cQccg12dgQ/maxresdefault.jpg)](https://youtu.be/3cQccg12dgQ)
 
 ## Theme Covered:
 The themes covered in this project include post pandemic restoration for both the environment, small buisnesses, and personal finance! The app pitched uses an extensivly trained AI system to detect trash and sort it to the proper bin from your smartphone. While using the app, users will be incentivized to use the app and recover the environment through the opportunity to earn points, which will be redeemable in partnering stores. 
