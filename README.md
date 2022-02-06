@@ -46,6 +46,10 @@ The next steps to this endeavor will be to provide benefits for individuals that
 
 ## Technological Specifics and Next Steps:  
 ### Frontend
+<p align="center">
+<img src = "https://drive.google.com/uc?export=view&id=1TSAcKAPLFtZdJrn8OZVRfkBvS_29Y8Dk" width="600" height="400"> 
+</p>
+
 We used to React.JS to develop components for the webcam footage and capture screen shots. It was also utilized to create the rest of the overall UI design. 
 
 ### Backend
