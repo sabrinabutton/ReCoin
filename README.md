@@ -9,7 +9,7 @@ Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales
  </p>
  
  <p align="center">   
-"Reuse Recycle Recoin"
+"Reduce Reuse Recoin"
  </p>
 
 ## Theme Covered:
