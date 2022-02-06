@@ -20,7 +20,7 @@ As our actions continue to damage the environment, it is important that we inves
 
 Our passion to make our community globally and locally more sustainable has fueled us to use artificial intelligence to develop an app that not only makes sorting garbage as easy as using Snapchat, but also rewards individuals for sorting their garbage properly. 
 
-For this reason, we would like to introduce Recoin. This intuitive app allows a person to scan any product and easily find the bin that the trash belongs based off their location.  Furthermore, if they attempt to sell their product, or use our app, they will earn points which will subsequently be redeemable in partnering stores that advocate for the environment. The more the user uses the app, the more points they receive, subsequently resulting in better items to redeem in stores. With this app we will not only help recover the environment post-pandemic but also increase sales in small businesses at the same time. 
+For this reason, we would like to introduce Recoin. This intuitive app allows a person to scan any product and easily find the bin that the trash belongs based off their location.  Furthermore, if they attempt to sell their product, or use our app, they will earn points which will  be redeemable in partnering stores that advocate for the environment. The more the user uses the app, the more points they receive,  resulting in better items to redeem in stores. With this app we will not only help recover the environment, but also increase sales in small businesses which struggled during the pandemic to recover. 
 
 ## About the App:
 ### Incentive Breakdown: 
