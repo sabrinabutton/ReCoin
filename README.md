@@ -49,11 +49,13 @@ The next steps to this endeavor will be to provide benefits for individuals that
 We used to React.JS to develop components for the webcam footage and capture screen shots. It was also utilized to create the rest of the overall UI design. 
 
 ### Backend
-#### Trash Detection AI: 
+#### Waste Detection AI: 
 
-On Pytorch, we utilized an open-source trash detection AI software and data, to train the trash detection system originally developed by IamAbhinav03. The system utilizes over 2500 images to train, test, and validate the system. To improve the system, we increased the number of epochs to 8 rather than 5 (number of passes the training system has completed) to train it for an additional four hours than required. This allowed the accuracy to increase by 4% more than the original system. We also modified the test train and split amounts to 70%, 10%, and 20% respectively, as more prominent AI studies have found this distribution to receive the best results.
+On Pytorch, we utilized an open-source trash detection AI software and data, to train the trash detection system originally developed by IamAbhinav03. The system utilizes over 2500 images to train, test, and validate the system. To improve the system, we increased the number of epochs to 8 rather than 5 (number of passes the training system has completed). This allowed the accuracy to increase by 4% more than the original system. We also modified the test/train ratio and split amounts to 70%, 10%, and 20% respectively, as more prominent AI studies have found this distribution to receive the best results.
 
 Currently, the system is predicted to have a 94% accuracy, but in the future, we plan on using reinforcement learning in our beta testing to continuously improve our algorithm. Reinforcement learning allows for the data to be more accurate, through learning from user correction. This will allow AI to become more precise as it gains more popularity.  
+
+A flask server is used to make contact with the waste detection neural network; an image is sent from the front end as a post request, the Flask server generates a tensor and runs that through the neural net, then sends the response from the algorithm back to the front end. This response is the classification of the waste as either cardboard, glass, plastic, metal, paper or trash.
 
 #### Other Systems: 
 By using Matbox API and the Google Suite/API, we will be creating maps to find recycling locations and an extensively thorough Recoin currency system that can easily be transferred to real time money for consumers and businesses (as shown in the user interface above).
