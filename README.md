@@ -88,7 +88,7 @@ The following timeline will be used to ensure that our project will be on the ma
 <img src = "https://drive.google.com/uc?export=view&id=1jA6at4g31KpTOJdwna-10UwP_U-z4JUp" width="500" height="700"> 
 </p>
 
-## Code Refrences
+## Code References
 • https://medium.datadriveninvestor.com/deploy-your-pytorch-model-to-production-f69460192217
 
 • https://narainsreehith.medium.com/upload-image-video-to-flask-backend-from-react-native-app-expo-app-1aac5653d344
@@ -100,7 +100,7 @@ The following timeline will be used to ensure that our project will be on the ma
 • https://pytorch.org/get-started/locally/
 
 • https://www.kdnuggets.com/2019/03/deploy-pytorch-model-production.html
-## Refrences for Information
+## References for Information
 •	https://www.rubicon.com/blog/trash-reason-statistics-facts/
 
 •	https://www.dosomething.org/us/facts/11-facts-about-recycling 
