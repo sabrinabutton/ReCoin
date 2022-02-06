@@ -1,4 +1,4 @@
-# Recoin 
+# ReCoin 
 <img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="210" height="200"> 
 "Restoring our Environment and Buisnesses in Parallel"
 
