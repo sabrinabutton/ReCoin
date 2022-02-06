@@ -9,7 +9,7 @@ Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales
  </p>
  
  <p align="center">   
-"Restoring our Environment and Buisnesses in Parallel"
+"Reuse Recycle Recoin"
  </p>
 
 ## Theme Covered:
