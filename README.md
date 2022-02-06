@@ -54,7 +54,7 @@ We used to React.JS to develop components for the webcam footage and capture scr
 
 ### Backend
 #### Waste Detection AI: 
-
+<img src = "https://drive.google.com/uc?export=view&id=1Fx8uAW3I_OntNn74aZXYQbThnfPkZs56" width="1000" height="500"> 
 On Pytorch, we utilized an open-source trash detection AI software and data, to train the trash detection system originally developed by IamAbhinav03. The system utilizes over 2500 images to train, test, and validate the system. To improve the system, we increased the number of epochs to 8 rather than 5 (number of passes the training system has completed). This allowed the accuracy to increase by 4% more than the original system. We also modified the test/train ratio and split amounts to 70%, 10%, and 20% respectively, as more prominent AI studies have found this distribution to receive the best results.
 
 Currently, the system is predicted to have a 94% accuracy, but in the future, we plan on using reinforcement learning in our beta testing to continuously improve our algorithm. Reinforcement learning allows for the data to be more accurate, through learning from user correction. This will allow AI to become more precise as it gains more popularity.  
