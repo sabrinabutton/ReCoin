@@ -1,6 +1,6 @@
 import React, { useState }  from 'react';
 import logo from './icon/ReCoin.png';
-import { FaInfo } from 'react-icons/fa'
+import { FaInfo, FaGithub } from 'react-icons/fa'
 import {CSSTransition} from 'react-transition-group';
 function Navbar(props) {
     return (
@@ -76,7 +76,7 @@ function Navbar(props) {
           onEnter={calcHeight}
           >
             <div className = "menu">
-              <LoginButton> My Profile </LoginButton>
+              <LoginButton leftIcon={<FaGithub/>} href= "https://github.com/sabrinabutton/ReCoin"> GitHub </LoginButton>
               <DropdownItem
                 className='icon-button' 
                 leftIcon = {<FaInfo/>}
