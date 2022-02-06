@@ -88,6 +88,9 @@ The following timeline will be used to ensure that our project will be on the ma
 <img src = "https://drive.google.com/uc?export=view&id=1jA6at4g31KpTOJdwna-10UwP_U-z4JUp" width="500" height="700"> 
 </p>
 
+##About the Team: 
+We are first and second year students from Queen's University who are very passionate about sustainbility and designing of innovative solutions to modern day problems. We all have the mindset to give any task our all and obtain the best results. We have a diverse skillset in the team and throughout the hackathon we utlized it to work efficienty. We are first time hackathoners, so even though we all had respective expierence in our own fields, this whole expierence was very new and educationally rewarding for us. We would like to thank the organisers and mentors for all thier support and for organizing the event. 
+
 ## Code References
 • https://medium.datadriveninvestor.com/deploy-your-pytorch-model-to-production-f69460192217
 
