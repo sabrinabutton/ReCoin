@@ -57,7 +57,7 @@ Currently, the system is predicted to have a 94% accuracy, but in the future, we
 
 A flask server is used to make contact with the waste detection neural network; an image is sent from the front end as a post request, the Flask server generates a tensor and runs that through the neural net, then sends the response from the algorithm back to the front end. This response is the classification of the waste as either cardboard, glass, plastic, metal, paper or trash.
 
-#### Other Systems: 
+#### Possible next steps: 
 By using Matbox API and the Google Suite/API, we will be creating maps to find recycling locations and an extensively thorough Recoin currency system that can easily be transferred to real time money for consumers and businesses (as shown in the user interface above).
 
 ## Stakeholders:
