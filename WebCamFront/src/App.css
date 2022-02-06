@@ -14,12 +14,12 @@
 }
 
 :root {
-  --bg: #191414;
-  --bg-accent: #4F4F4F;
+  --bg: #ffffff;
+  --bg-accent: rgb(0, 143, 76);
   --bg-bright: #1DB954;
   --text-color: #FFFFFF;
   --nav-size: 60px;
-  --border: 1px solid #474a4d;
+  --border: 1px solid #008a45;
   --border-radius: 8px;
   --speed: 500ms;
 }
@@ -33,7 +33,7 @@ p {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,6 +53,7 @@ p {
   background-color: var(--bg);
   padding: 0 1rem;
   border-bottom: var(--border);
+  font: Arial;
 }
 
 .navbar-nav {
@@ -167,9 +168,18 @@ p {
   transition: all var(--speed) ease;
 }
 
+.webcamCapture {
+  display: block;
+  color: blue ;
+  border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .webcamCapture__button {
-  display: block;
+display: block;
+color: #008a45;
+border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
 }

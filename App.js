@@ -5,18 +5,19 @@ import test_image from "./test_image.jpg";
 //Importing the installed libraries
 import * as FS from "expo-file-system";
 import * as ImagePicker from "expo-image-picker";
+import Main from './WebCamFront/src/App';
+import database from "mime-db";
+import { identity } from "lodash";
 
 const toServer = async (mediaFile) => {
   let type = mediaFile.type;
   let schema = "http://";
   let host ="192.168.30.183";
-  let route = "";
+  let route = "/predict";
   let port = "5000";
   let url = "";
-  let content_type = "";
-  type === "image"
-    ? ((route = "/image"), (content_type = "image/jpeg"))
-    : ((route = "/video"), (content_type = "video/mp4"));
+  let content_type = "image/jpeg";
+
   url = schema + host + ":" + port + route;
 
   let response = await FS.uploadAsync(url, mediaFile.uri, {
@@ -27,23 +28,14 @@ const toServer = async (mediaFile) => {
     uploadType: FS.FileSystemUploadType.BINARY_CONTENT,
   });
 
-  
-  console.log(response.headers);
-  console.log(response.body);
-  return response.body;
+
+  response.json().then(data => {
+    console.log(data);
+    return data.class_name;
+  });
 };
 
 export default function App() {
-  const [identity, setIdentity] = useState(null);
-  const [disableButton, setDB] = useState(false);
-
-  useEffect(async () => {
-    const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
-    setCPR(status === "granted");
-    setDB(false);
-  });
-
-  
 // const uriToBase64 = async (uri) => {
 //   let base64 = await FS.readAsStringAsync(uri, {
 //     encoding: FS.EncodingType.Base64,
@@ -80,7 +72,7 @@ export default function App() {
 //     });
 //   }
 // };
-
+  const [identity, setIdentity] = useState(null);
   return (
     <SafeAreaView style={styles.container}>
       {/* {cameraRollPer ? (
@@ -100,15 +92,13 @@ export default function App() {
       )} */}
       <Button
           title="Test"
-          disabled={disableButton}
+         
           onPress={async () => {
             setIdentity(await toServer(test_image));
           
-              setCPR(cameraRollPer);
-              setDB(false);
-            
           }}
         />
+        <Main/>
     </SafeAreaView>
   );
 }
