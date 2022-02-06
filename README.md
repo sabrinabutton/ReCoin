@@ -45,6 +45,10 @@ The next steps to this endeavor will be to provide benefits for individuals that
 <img src = "https://drive.google.com/uc?export=view&id=1QR2fNvrkpB7q_PAI_5iZfL3M7i9nV6m5" width="1000" height="500"> 
 
 ## Technological Specifics and Next Steps:  
+<p align="center">
+<img src = "https://drive.google.com/uc?export=view&id=1vlfSjhtg-_JZZzVITaRMiOsXC-9TwyNS" width="1000" height="500"> 
+</p>
+
 ### Frontend
 <p align="center">
 <img src = "https://drive.google.com/uc?export=view&id=1TSAcKAPLFtZdJrn8OZVRfkBvS_29Y8Dk" width="600" height="400"> 
