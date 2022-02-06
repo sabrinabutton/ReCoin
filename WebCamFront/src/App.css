@@ -1,11 +1,21 @@
 body {
+	background: linear-gradient(-45deg, #4DA090, #80A96F, #8BB047, #141518);
+	background-size: 400% 400%;
   text-align: center;
-  background-color: #7FA745;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .App-logo {
@@ -34,6 +44,13 @@ p {
   color: var(--text-color);
 }
 
+.logo {
+    margin-left:190%;
+    margin-top: 25%;
+    margin-right:auto;
+    
+}
+
 .background {
   background-color: var(--bg);
 }
@@ -55,13 +72,15 @@ p {
 
 
 .navbar {
+  opacity: 0.8;
   height: var(--nav-size);
-  background-color: var(--bg);
+  background-color: black;
   padding: 0 1rem;
   border-bottom: var(--border);
 }
 
 .navbar-nav {
+  
   margin: 0;
   max-width: 100%;
   height: 100%;
@@ -174,18 +193,26 @@ p {
   transition: all var(--speed) ease;
 }
 
-.webcamCapture {
-  margin-top: 1px;
+.cameraFeed {
+  margin-top: 15px;
   border-radius: 25px;
   box-shadow: #191414;
+  margin-bottom: 0;
+
 }
 
+.results {
+  scale: 75%;
+  display: inline;
+}
 
 .webcamCapture__button {
   display: block;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
   --button-size: calc(var(--nav-size) * 0.5);
   width: var(--button-size);
   height: var(--button-size);

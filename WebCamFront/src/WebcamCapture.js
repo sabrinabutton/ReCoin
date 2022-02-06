@@ -1,11 +1,12 @@
 import {FaCamera} from 'react-icons/fa';
 import React, {useCallback, useRef, useState} from "react";
+import Card from "react-bootstrap/Card";
 import Webcam from "react-webcam";
 import { useDispatch } from 'react-redux';
 import { setCameraImage } from './features/cameraSlice';
 const videoConstraints = {
-    width: 400,
-    height: 400,
+    width: 800,
+    height: 454,
     facingMode: "user",
 };
 
@@ -26,6 +27,7 @@ function WebcamCapture() {
     return (
     <div className='webcamCapture'>
         <Webcam
+            className='cameraFeed'
             audio ={false}
             height= {videoConstraints.height}
             ref={webcamRef}
@@ -38,7 +40,13 @@ function WebcamCapture() {
             onClick={capture}
             fontSize = "large"
         />
-        <img src = {image} alt =""/>
+        
+        <div className='results'>
+            <img className='cameraFeed results' src = {image} alt =""/>
+            <h1>Detected: </h1>
+        </div> 
+
+        
     </div>
     );
 }

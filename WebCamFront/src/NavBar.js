@@ -1,4 +1,5 @@
 import React, { useState }  from 'react';
+import logo from './icon/ReCoin.png';
 import { FaInfo } from 'react-icons/fa'
 import {CSSTransition} from 'react-transition-group';
 function Navbar(props) {
@@ -6,6 +7,7 @@ function Navbar(props) {
       <nav className = "navbar">
           <ul className='navbar-nav'>{ props.children }</ul>
           
+
       </nav>
   
     );
@@ -16,15 +18,17 @@ function Navbar(props) {
     const [open, setOpen] = useState(false);
   
     return (
+      <>
       <li className='nav-item'>
         <a href="#" className='icon-button' onClick={()=>setOpen(!open)}>
           { props.icon }
         </a>
-        
-  
         {open && props.children}
   
       </li>
+      <li className='nav-item'><img className='logo' src={logo} alt="logo" width ="150px"/>
+      </li>
+      </>
       
     );
   }
