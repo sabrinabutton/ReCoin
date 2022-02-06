@@ -2,7 +2,8 @@
 Shashank Ojha, Sabrina Button, Abdellah Ghassel, Joshua Gonzales   
 
 #   <img src = "https://drive.google.com/uc?export=view&id=1wpfdlHiWh5KRe_vNQHxh1KQIfEGxOfFJ" width="150" height="38"> 
-
+ 
+  
  <p align="center">  
 <img src = "https://drive.google.com/uc?export=view&id=1admSn1s1K2eioqtCisLGZD4zXZjGWsy8" width="170" height="160">   
  </p>
@@ -26,7 +27,9 @@ For this reason, we would like to introduce Trashcoin. This intuitive app allows
 <p align="center">
 <img src = "https://drive.google.com/uc?export=view&id=1CU2JkOJqplaTxNo7B8s_UXN_UaEydsd3" width="600" height="400"> 
 </p>
-Please note that these expenses are estimated expectations for potential benefit packages but are not defined yet. 
+
+Please note that these expenses are estimated expectations for potential benefit packages but are not defined to be exact yet. 
+
 
 We are proposing a $1 discount for participating small businesses when an amount certain coffee/drink cups are returned to participating restaurants.  This will be easy for small companies to uphold to financially, while providing a motivation for individuals to use our scanner.
 
